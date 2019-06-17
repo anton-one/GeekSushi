@@ -1,0 +1,88 @@
+
+
+
+
+
+.menu {
+
+    .wrap {
+        .menu-content {
+            padding-top: 100px;
+
+            .menu-element {
+                &:nth-child(2) {
+                    margin: 80px 0;
+                }
+
+                .product-name {
+                    display: flex;
+                    align-items: flex-end;
+                    margin-bottom: 40px;
+                    
+                    .name {
+                        color: #575655;
+                        font-size: 32px;
+                        font-weight: 600;
+                        line-height: 35.55px;
+                        letter-spacing: 0.42px;
+                        margin-right: 30px;
+                    }
+                    .line {
+                    width: 100%;
+                    height: 3px;
+                    background-color: #4b5347;
+                    }
+                    .red {
+                        background-color: #d4857f;
+                    }
+                    .yellow {
+                        background-color: #f6a647;
+                    }
+                }
+        
+                .product-menu {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    &:nth-child(3) {
+                        justify-content: center;
+                    }
+        
+                    .product-element {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 40px;
+                        padding: 0 20px;
+                        
+                        .img {
+                            width: 125px;
+                            height: 105px;
+                            margin-right: 20px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+                        }
+        
+                        p {
+                            color: #575655;
+                            font-size: 23px;
+                            font-weight: 600;
+                            line-height: 25.27px;
+                            letter-spacing: 0.42px;
+                            span {
+                                display: block;
+                                color: #ee3456;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+

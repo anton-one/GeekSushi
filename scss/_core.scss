@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/**
+ * Основные стили
+ **/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  @include min-max(320px, 100%, 0);
+}
+
+.wrap {
+  @include min-max(320px, 1010px, 15px);
+}
+
+
+
+
+
+
+p {
+  color: $black;
+}

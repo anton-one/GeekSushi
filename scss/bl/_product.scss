@@ -1,0 +1,48 @@
+
+
+
+.product {
+    padding: 100px 0;
+    .wrap {
+
+        .content-bottom {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .content-element {
+                text-align: center;
+
+                .img {
+                    height: 210px;
+                }
+
+                p {
+                    color: #4d4b4a;
+                    font-size: 27px;
+                    font-weight: 600;
+                    line-height: 23.18px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.54px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .product {
+        padding: 100px 0 0 0;
+        .wrap {
+            .content-bottom {
+                justify-content: center;
+                .content-element {
+                    margin-bottom: 60px;
+                }
+            }
+        }
+    }
+
+}
